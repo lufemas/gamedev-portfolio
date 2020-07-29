@@ -1,0 +1,63 @@
+.main-header{
+  background-color: var(--jr-btn-primary-bg-color);
+  color: white;
+}
+
+html{
+  color: #222;
+  font-weight: 400;
+}
+
+/* h2{
+  border-bottom: solid var(--jr-btn-hover-primary-bg-color) 3px;
+  color: var(--jr-btn-hover-primary-bg-color);
+  
+} */
+
+code{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.tech-logo{
+  width: 5em;
+}
+
+
+.jr.card{
+  /* border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important; */
+  /* border-left: solid 1px var(--jr-btn-primary-bg-color) !important ; */
+  /* border-left: solid 1px var(--jr-btn-primary-bg-color) !important ; */
+
+  box-shadow: none !important;
+}
+
+.list-bullet{
+  list-style: disc;
+}
+
+.list-bullet li {
+  margin-top: .5em;
+}
+
+#techs  li{
+  align-items: center;
+}
+
+.jr.button, .jr.button-primary{
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.493) .1em .1em .2em;
+}
+
+
+
+
+#wip img{
+  max-height: 200px;
+  width: auto;
+  object-fit: contain;
+}
+
